@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Highside 2FA Demo</title>
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+	<nav>
+		<div class="nav-wrapper white valign-wrapper">
+			<a href="#" class="brand-logo center"><img class="valign" src="highside_logo.png"></a>
+		</div>
+	</nav>
+
+	<main>
+		<div class="container">
+			<div class="row center-align">
+				<h4>2-Factor Authentication Demo</h4>
+			</div>
+
+			<div class="row">
+				<form class="col m6 offset-m3" method="post" action="/verify">
+					<div class="row">
+						<div class="input-field col s12">
+				 			<input name="pin" type="text" class="validate">
+							<label">PIN Code (6 numbers) </label>
+						</div>
+					</div>
+					<button id="submit-verification" class="btn waves-effect waves-light blue lighten-2" type="submit">Submit
+						<i class="material-icons right">send</i>
+					</button>
+				</form>
+			</div>
+		</div>
+	</main>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

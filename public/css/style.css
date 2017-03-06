@@ -1,0 +1,31 @@
+nav .nav-wrapper {
+	height: 300px;
+}
+
+img {
+	height: 100px;
+	width: auto;
+}
+
+main {
+	margin-top: 250px;
+}
+
+h4, p {
+	color: #616161;
+}
+
+h3 {
+	color: #64b5f6;
+}
+
+.input-field input[type=text]:focus + label,
+.input-field input[type=password]:focus + label {
+	color: #64b5f6;
+}
+
+.input-field input[type=text]:focus,
+.input-field input[type=password]:focus {
+	border-bottom: 1px solid #64b5f6;
+	box-shadow: 0 1px 0 0 #64b5f6;
+}

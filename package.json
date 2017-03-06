@@ -1,0 +1,16 @@
+{
+  "name": "2fa-demo",
+  "version": "1.0.0",
+  "description": "A demo on how to set up 2FA using the Highside platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Douwe Knook",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.15.1",
+    "request": "^2.80.0"
+  }
+}
