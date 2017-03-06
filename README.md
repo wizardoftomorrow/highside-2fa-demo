@@ -30,5 +30,4 @@ In this step we connect the code you cloned from this repository to your project
 Once you are finished with the steps above, feel free to add some additional features or play around with the other options the platform offers. Some suggestions:
 - Greet the user by their name in the SMS. ('Hi ...! Your pin code is ...')
 - Use Text-to-Speech to have the platform call the user and read their pin code to them. (use blocks Make Voice Call, Speak (Text-to-Speech) and Terminate Call)
-- Build an app that endlessly stalks your friends with calls or texts.
-![alt text](./pure_evil.png "Pure Evil")
+- Build an app to stalk your friends with calls or texts. :smiling_imp:
