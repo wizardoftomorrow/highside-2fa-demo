@@ -31,4 +31,4 @@ Once you are finished with the steps above, feel free to add some additional fea
 - Greet the user by their name in the SMS. ('Hi ...! Your pin code is ...')
 - Use Text-to-Speech to have the platform call the user and read their pin code to them. (use blocks Make Voice Call, Speak (Text-to-Speech) and Terminate Call)
 - Build an app that endlessly stalks your friends with calls or texts.
-![alt text](./pure_evil, "Pure Evil")
+![alt text](./pure_evil.png "Pure Evil")
