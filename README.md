@@ -15,7 +15,7 @@ In this step you set up your project on the platform. You can use the steps belo
 - Go to the [Highside platform](https://api01.highside.net/login "Highside.net") and sign in. You should have received your log in details already via email.
 - Click on the *Build New Project* button to start a new project in the Project Builder.
 - Choose the template *2FA by SMS*. You will be presented with some information about this type of project. Click *More options* and *Edit in Project Builder* to start modifying the template.
-- As you can see the project is triggered by an HTTP POST request to the trigger URL. Currently, the platform expects two variables attached to the request, `to` and `from`, in the form of a JSON object. To add another variable (a name for example), type it in the *Expected JSON attributs* bar and hit Enter.
+- As you can see the project is triggered by an HTTP POST request to the trigger URL. Currently, the platform expects two variables attached to the request, `to` and `from`, in the form of a JSON object. To add another variable (a name for example), type it in the *Expected JSON attributes* bar and hit Enter.
 - In the last block (Send SMS) you can set the message text you want to send to the user. Feel free to change this message but make sure you include the Generated PIN variable.
 
 Step Two: Connect your website to the project.<br>
