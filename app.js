@@ -20,14 +20,16 @@ app.get('/', (req, res) => {
 
 // Handle post request from homepage form
 app.post('/', (req, res) => {
+	console.log(req.body)
 	/*
 		TODO: 
 		1. Get the data from the form and set the correct properties
 		2. Make a HTTP POST request to the Highside platform.
 			(To make the request simpler, you can use the included request module ( https://www.npmjs.com/package/request ))
-		3. If the request was succesful, store the received pin code and redirect the user to the verify page 
-			( res.sendFile(__dirname + '/public/verify.html') )
+		3. If the request was succesful, store the received pin code and redirect the user to the verify page with
+			res.sendFile(__dirname + '/public/verify.html')
 	*/
+	res.sendFile(__dirname + '/public/verify.html')
 })
 
 // Handle post request from the varify page
@@ -37,6 +39,7 @@ app.post('/verify', (req, res) => {
 		1. Retrieve the pin entered by the user
 		2. Compare the user pin to the pin received from the platform
 	*/
+	res.sendFile(__dirname + '/public/success.html')
 })
 
 app.listen(8000, () => {
